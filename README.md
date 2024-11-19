@@ -31,3 +31,7 @@ Asegúrate de enviar tu trabajo antes de la fecha y hora límite. Las entregas f
 
 Asegúrate de que tu código esté bien comentado, organizado y que sea fácil de leer y entender.
 Si utilizas alguna referencia externa para resolver algún ejercicio, es esencial que lo cites en tu README.md.
+
+## Conclusión:
+C++ es más adecuado para un sistema como el del CGEA por su manejo de memoria automática, orientación a objetos, y características avanzadas como excepciones.
+Recomendación: Usar C++ para el sistema central y reservar C para módulos específicos de bajo nivel si se requiere.
