@@ -1,6 +1,3 @@
-# Link del Repositorio 
-
-
 https://github.com/junx21/Examen_Parcial3.git
 
 
@@ -52,4 +49,3 @@ c) Una forma de definir variables.
 d) Una característica específica de C.
 
 ### La respuesta correcta es la B
-
