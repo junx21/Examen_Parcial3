@@ -6,28 +6,37 @@ https://github.com/junx21/Examen_Parcial3.git
 
 # Enunciados 
 
-Instrucciones para la entrega:
+Parte 1: Preguntas de elección múltiple (20%)
 
-## Repositorio en GitHub:
+¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
 
-Todo tu trabajo debe estar contenido en un repositorio en GitHub.
-Asegúrate de que el repositorio sea privado al inicio, y podrás hacerlo público después de que finalice el período de revisión del examen (si así lo deseas).
-Fichero ZIP:
+a) C utiliza cout y cin mientras que C++ utiliza printf y scanf.
+b) C utiliza printf y scanf mientras que C++ utiliza std::cout y std::cin.
+c) No hay ninguna diferencia.
+d) C++ utiliza printf y scanf mientras que C utiliza std::cout y std::cin.
 
-Una vez hayas terminado de resolver el examen, crea un archivo ZIP de todo el repositorio.
-El nombre del archivo ZIP debe seguir el formato: Apellido_Nombre_ExamenCPP.zip (reemplaza Apellido y Nombre con tu apellido y nombre respectivamente).
-## Fichero README.md:
+### La respuesta correcta es la B
+¿Qué es un espacio de nombres en C++?
 
-Dentro de tu repositorio, debes incluir un archivo README.md.
-Este archivo debe contener:
-El link directo a tu repositorio de GitHub.
-Una descripción breve de cada uno de los ejercicios resueltos, con referencias a los archivos o carpetas específicos donde se puede encontrar cada solución.
-El uso adecuado de Markdown en tu README.md para estructurar y formatear el contenido será valorado positivamente.
-## Envío:
+a) Una característica que permite agrupar entidades como clases, objetos y funciones bajo un nombre.
+b) Una manera de definir variables.
+c) Una función de la biblioteca estándar.
+d) Un tipo de ciclo en C++.
 
-Entrega el archivo ZIP a través de la plataforma o método que se te indique (por ejemplo, un sistema de gestión de aprendizaje, correo electrónico, etc.).
-Asegúrate de enviar tu trabajo antes de la fecha y hora límite. Las entregas fuera de plazo pueden no ser evaluadas o incurrir en penalizaciones.
-## Otros aspectos a considerar:
+### La respuesta correcta es la A
+En programación orientada a objetos en C++, ¿qué es una clase?
 
-Asegúrate de que tu código esté bien comentado, organizado y que sea fácil de leer y entender.
-Si utilizas alguna referencia externa para resolver algún ejercicio, es esencial que lo cites en tu README.md.
+a) Una agrupación de funciones.
+b) Un tipo de variable.
+c) Un tipo de dato primitivo.
+d) Una plantilla para crear objetos, proporciona una definición inicial para el estado (miembros de datos) y el comportamiento (miembros de la función).
+
+### La respuesta correcta es la D
+¿Qué son los templates en C++?
+
+a) Un tipo especial de clase.
+b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.
+c) Una forma de definir variables.
+d) Una característica específica de C.
+
+### La respuesta correcta es la B
