@@ -5,7 +5,7 @@ project(Examen_Parcial3)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Examen_Parcial3
-        Ej_C/main.c
+        main.c
         Ej_C/Asistencia/Asistencia.c
         Ej_C/Estudiante/Estudiante.c
         Ej_C/Materias/Materias.c
