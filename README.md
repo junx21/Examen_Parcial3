@@ -142,7 +142,7 @@ Implementa excepciones personalizadas para manejar errores como materia no encon
 Archivo Principal (main.cpp):
 Contiene solo las llamadas a las funciones principales: estructuraDelEstudiante(), gestionDeMaterias(), y registroDeAsistencias().
 
-### Descripción de cada ejercicio +  Referencia de los archivos en C
+# Descripción de cada ejercicio +  Referencia de los archivos en C
 
 Implementación de la estructura Estudiante
 
