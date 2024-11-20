@@ -172,4 +172,4 @@ Pensar en el futuro: Como este sistema manejará datos sensibles de muchos estud
 
 
 
-### INFORMACIÓN DE CHATPT
+### Fuente CHATGPT
