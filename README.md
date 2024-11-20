@@ -124,10 +124,17 @@ C:
 Aunque C no tiene un sistema integrado de manejo de excepciones como C++, discute cómo podrías manejar errores y situaciones inesperadas en este lenguaje.
 ## Conclusión:
 
-Con base en tu experiencia y las implementaciones desarrolladas:
-
 ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
+
+Considero que C++ es la mejor opción para el proyecto. Esto se debe a que permite trabajar de forma más organizada gracias a la orientación a objetos, lo que facilita la creación de estructuras como estudiantes, materias y asistencia. Además, cuenta con herramientas modernas como el manejo de excepciones, que ayudan a prevenir errores inesperados, y una amplia biblioteca estándar que simplifica la gestión de datos. Estas características hacen que C++ sea más flexible y escalable para un proyecto de esta magnitud.
+
 ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
+
+Dividir el proyecto en etapas pequeñas: Trabajar por partes permitirá identificar problemas más rápido y asegurarse de que todo funciona correctamente antes de pasar al siguiente paso.
+Usar herramientas colaborativas: Implementar el uso de GitHub para manejar el código de forma segura y mantener un historial de cambios ayudará mucho al equipo.
+Probar constantemente: Es importante realizar pruebas frecuentes del código para garantizar que todo funciona como se espera y que no se generen nuevos errores.
+Capacitar al equipo: Si alguien del equipo no tiene experiencia suficiente con C++, sería útil realizar talleres o prácticas para que todos puedan trabajar al mismo nivel.
+Pensar en el futuro: Como este sistema manejará datos sensibles de muchos estudiantes, es clave pensar desde ahora en medidas de seguridad y en cómo integrar bases de datos para almacenar la información de forma eficiente y protegida.
 
 
 
