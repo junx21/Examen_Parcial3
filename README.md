@@ -124,7 +124,7 @@ C:
 Aunque C no tiene un sistema integrado de manejo de excepciones como C++, discute cómo podrías manejar errores y situaciones inesperadas en este lenguaje.
 
 
-# Descripción de cada ejercicio +  Referencia de los archivos 
+# Descripción de cada ejercicio +  Referencia de los archivos en C++
 
 Estructura del Estudiante (EJ_C++/Estudiante/estudiante.cpp):
 Define la clase Estudiante con atributos como nombre, edad y promedio. Implementa una función para mostrar los datos del estudiante.
@@ -141,6 +141,32 @@ Implementa excepciones personalizadas para manejar errores como materia no encon
 
 Archivo Principal (main.cpp):
 Contiene solo las llamadas a las funciones principales: estructuraDelEstudiante(), gestionDeMaterias(), y registroDeAsistencias().
+
+### Descripción de cada ejercicio +  Referencia de los archivos en C
+
+Implementación de la estructura Estudiante
+
+Se crea una estructura Estudiante con los campos nombre, edad y promedio.
+Se implementa una función mostrarEstudiante() que imprime los valores de cada campo de un estudiante.
+Archivo: parte1/estructura_estudiante.c
+Gestión de materias
+
+Se amplía la estructura Estudiante para incluir un arreglo de materias y un contador de materias.
+Se crean funciones para agregar materias a un estudiante (agregarMateria) y mostrarlas (mostrarMaterias).
+Archivo: parte2/gestion_materias.c
+Registro de asistencia
+
+Se define una estructura Asistencia con los campos fecha, materia y estado.
+Se amplía la estructura Estudiante para incluir un arreglo de asistencias y un contador de registros.
+Se crean funciones para registrar asistencias (registrarAsistencia) y mostrarlas (mostrarAsistencia).
+Archivo: parte3/registro_asistencia.c
+Manejo de errores
+
+Aunque C no tiene excepciones como C++, se maneja el control de errores mediante verificaciones de entrada y mensajes en consola.
+Por ejemplo, se revisa que los datos ingresados sean válidos antes de procesarlos.
+Archivo: parte4/manejo_errores.c
+
+En int main llamamos a las funciones para finalizar el codigo.
 
 # Conclusión:
 
