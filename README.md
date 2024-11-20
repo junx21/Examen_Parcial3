@@ -122,7 +122,27 @@ Demuestra su uso con bloques try, catch.
 C:
 
 Aunque C no tiene un sistema integrado de manejo de excepciones como C++, discute cómo podrías manejar errores y situaciones inesperadas en este lenguaje.
-## Conclusión:
+
+
+# Descripción de cada ejercicio +  Referencia de los archivos 
+
+Estructura del Estudiante (EJ_C++/Estudiante/estudiante.cpp):
+Define la clase Estudiante con atributos como nombre, edad y promedio. Implementa una función para mostrar los datos del estudiante.
+
+
+Gestión de Materias (EJ_C++/Materias/gestion_materias.cpp):
+Implementa funciones para agregar, eliminar y mostrar materias de un estudiante. Utiliza un vector para almacenar las materias.
+
+Registro de Asistencias (EJ_C++/Asistencias/registro_asistencias.cpp):
+Crea funciones para registrar y mostrar asistencias de un estudiante. Usa un vector para guardar las asistencias y verifica el formato de la fecha.
+
+Manejo de Excepciones (incluido en todos los archivos .cpp):
+Implementa excepciones personalizadas para manejar errores como materia no encontrada o fecha inválida. Usa bloques try-catch en cada función principal.
+
+Archivo Principal (main.cpp):
+Contiene solo las llamadas a las funciones principales: estructuraDelEstudiante(), gestionDeMaterias(), y registroDeAsistencias().
+
+# Conclusión:
 
 ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
 
