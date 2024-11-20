@@ -8,14 +8,14 @@ void inicializarAsistencias(Asistencias* asistencias) {
 
 void registrarAsistencia(Asistencias* asistencias, const char* fecha, const char* materia, const char* estado) {
 
-        if (asistencias->numAsistencias < MAX_ASISTENCIAS) {
-            strcpy(asistencias->lista[asistencias->numAsistencias].fecha, fecha);
-            strcpy(asistencias->lista[asistencias->numAsistencias].materia, materia);
-            strcpy(asistencias->lista[asistencias->numAsistencias].estado, estado);
-            asistencias->numAsistencias++;
-        } else {
-            printf("No se pueden registrar más asistencias.\n");
-        }
+    if (asistencias->numAsistencias < MAX_ASISTENCIAS) {
+        strcpy(asistencias->lista[asistencias->numAsistencias].fecha, fecha);
+        strcpy(asistencias->lista[asistencias->numAsistencias].materia, materia);
+        strcpy(asistencias->lista[asistencias->numAsistencias].estado, estado);
+        asistencias->numAsistencias++;
+    } else {
+        printf("No se pueden registrar más asistencias.\n");
+    }
 
 }
 

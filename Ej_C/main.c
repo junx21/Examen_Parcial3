@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "materias.h"
-#include "estudiante.h"
-#include "asistencia.h"
+#include "../Ej_C/Materias/materias.h"
+#include "../Ej_C/Estudiante/estudiante.h"
+#include "../Ej_C/Asistencia/asistencia.h"
 
 int main() {
     Estudiante estudiante;

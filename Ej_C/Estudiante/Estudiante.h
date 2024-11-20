@@ -1,8 +1,10 @@
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
 
-#include "materias.h"
-#include "asistencia.h"
+
+#include "../Asistencia/Asistencia.h"
+#include "../Materias/Materias.h"
+
 
 typedef struct {
     char nombre[50];
@@ -16,4 +18,3 @@ void inicializarEstudiante(Estudiante* est, const char* nombre, int edad, float 
 void mostrarEstudiante(const Estudiante* est);
 
 #endif
-
