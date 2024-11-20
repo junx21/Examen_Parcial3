@@ -144,29 +144,17 @@ Contiene solo las llamadas a las funciones principales: estructuraDelEstudiante(
 
 # Descripción de cada ejercicio +  Referencia de los archivos en C
 
-Implementación de la estructura Estudiante
+En el programa en C, la estructura de datos principal es la estructura Estudiante. En lugar de usar clases como en C++, se define una estructura que contiene los atributos nombre, edad y promedio. Para mostrar los datos del estudiante, se implementa una función mostrarEstudiante() que recibe una instancia de la estructura y muestra sus atributos utilizando la función printf. Esta estructura permite almacenar la información básica de cada estudiante de manera sencilla. El código relacionado con esto se encuentra en el archivo parte1/estructura_estudiante.c.
 
-Se crea una estructura Estudiante con los campos nombre, edad y promedio.
-Se implementa una función mostrarEstudiante() que imprime los valores de cada campo de un estudiante.
-Archivo: parte1/estructura_estudiante.c
-Gestión de materias
+En cuanto a la gestión de materias, en C se usa un arreglo para almacenar las materias del estudiante, ya que C no tiene un tipo de datos como el vector de C++. Se implementan funciones como agregarMateria() para añadir nuevas materias al arreglo y mostrarMaterias() para imprimir la lista de materias que tiene un estudiante. Aunque C no permite eliminar directamente elementos de un arreglo, se mantiene un contador para llevar la cuenta de las materias agregadas. Todo esto se gestiona en el archivo Materias/Materias.c.
 
-Se amplía la estructura Estudiante para incluir un arreglo de materias y un contador de materias.
-Se crean funciones para agregar materias a un estudiante (agregarMateria) y mostrarlas (mostrarMaterias).
-Archivo: parte2/gestion_materias.c
-Registro de asistencia
+Para el registro de asistencias, se define una estructura Asistencia, que contiene los campos fecha, materia y estado (asistió, falta, etc.). Al igual que con las materias, se utiliza un arreglo para almacenar los registros de asistencia de cada estudiante. Las funciones registrarAsistencia() y mostrarAsistencias() permiten gestionar y mostrar las asistencias. En C, la fecha se maneja como una cadena de caracteres y se verifica manualmente su formato. Este código se encuentra en el archivo Asistencia/Asistencia.c.
 
-Se define una estructura Asistencia con los campos fecha, materia y estado.
-Se amplía la estructura Estudiante para incluir un arreglo de asistencias y un contador de registros.
-Se crean funciones para registrar asistencias (registrarAsistencia) y mostrarlas (mostrarAsistencia).
-Archivo: parte3/registro_asistencia.c
-Manejo de errores
+En lo que respecta al manejo de errores, en C no existen excepciones como en C++, por lo que se realiza una verificación manual de errores. Por ejemplo, antes de procesar los datos, se comprueba que la fecha o la materia sean válidas. Si algún dato es incorrecto, se muestra un mensaje de error usando printf. Esto asegura que el programa no falle ante entradas erróneas, aunque de manera más rudimentaria que en C++. Todo esto se maneja con if y for.
 
-Aunque C no tiene excepciones como C++, se maneja el control de errores mediante verificaciones de entrada y mensajes en consola.
-Por ejemplo, se revisa que los datos ingresados sean válidos antes de procesarlos.
-Archivo: parte4/manejo_errores.c
+Finalmente, el archivo principal (main.c) se encarga de coordinar el flujo del programa. En él se hacen las llamadas a las funciones principales como estructuraDelEstudiante(), gestionDeMaterias() y registroDeAsistencias(), que permiten ejecutar las distintas partes del programa en el orden necesario. Este archivo reúne todas las funcionalidades y facilita la ejecución del programa completo.
 
-En int main llamamos a las funciones para finalizar el codigo.
+En resumen, aunque en C no contamos con herramientas como clases o excepciones, se pueden lograr los mismos resultados utilizando estructuras, arreglos y verificaciones manuales de errores. Las diferencias clave con C++ son la ausencia de orientación a objetos y el manejo manual de errores, que en C se realiza mediante condiciones y mensajes en lugar de excepciones.
 
 # Conclusión:
 
