@@ -1,3 +1,6 @@
+# Particiantes:
+Jun Xu Cheng y Luis Crespo Garcia
+
 # Link del Repositorio:
 
 
