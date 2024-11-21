@@ -4,8 +4,14 @@
 #include <algorithm>
 
 void gestionDeMaterias() {
+    // Se asume que se ha pedido el nombre en estructuraDelEstudiante()
+    // y que se puede usar un nombre predeterminado o pedirlo aquí nuevamente.
+
+    // Pedir el nombre nuevamente o usar un valor predeterminado
+    std::string nombre = "María García"; // Cambia esto si quieres pedirlo aquí también
+
     try {
-        Estudiante estudiante("María García", 22, 9.0);
+        Estudiante estudiante(nombre, 22, 9.0); // Edad y promedio como ejemplo
 
         estudiante.materias.push_back("Matemáticas");
         estudiante.materias.push_back("Física");
@@ -24,13 +30,6 @@ void gestionDeMaterias() {
             throw MateriaNoEncontradaException();
         }
 
-        // Intentar eliminar una materia que no existe
-        it = std::find(estudiante.materias.begin(), estudiante.materias.end(), "Química");
-        if (it != estudiante.materias.end()) {
-            estudiante.materias.erase(it);
-        } else {
-            throw MateriaNoEncontradaException();
-        }
     } catch (const MateriaNoEncontradaException& e) {
         std::cerr << "Error en gestionDeMaterias: " << e.what() << std::endl;
     } catch (const std::exception& e) {
