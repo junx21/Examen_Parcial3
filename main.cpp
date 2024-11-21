@@ -3,8 +3,10 @@
 #include "EJ_C++/Asistencias/registro_asistencias.h"
 
 int main() {
+
     estructuraDelEstudiante();
     gestionDeMaterias();
     registroDeAsistencias();
+
     return 0;
 }
