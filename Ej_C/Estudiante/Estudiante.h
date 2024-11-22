@@ -17,4 +17,5 @@ typedef struct {
 void inicializarEstudiante(Estudiante* est, const char* nombre, int edad, float promedio);
 void mostrarEstudiante(const Estudiante* est);
 
+
 #endif

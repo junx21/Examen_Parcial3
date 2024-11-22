@@ -5,9 +5,14 @@
 
 int main() {
     Estudiante estudiante;
+    char nombre[50];  // Variable para almacenar el nombre
+
+    // Pedir el nombre del estudiante por consola
+    printf("Ingrese el nombre del estudiante: ");
+    scanf("%49s", nombre);  // Capturar el nombre, máximo 49 caracteres
 
     // Inicializar al estudiante
-    inicializarEstudiante(&estudiante, "Juan Perez", 20, 8.5);
+    inicializarEstudiante(&estudiante, nombre, 20, 8.5);
 
     // Gestión de materias
     agregarMateria(&estudiante.materias, "Matemáticas");

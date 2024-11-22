@@ -3,7 +3,7 @@
 #include <string.h>
 
 void inicializarEstudiante(Estudiante* est, const char* nombre, int edad, float promedio) {
-    strcpy(est->nombre, nombre);
+    strcpy(est->nombre, nombre);  // Copiar el nombre ingresado
     est->edad = edad;
     est->promedio = promedio;
     inicializarMaterias(&est->materias);
